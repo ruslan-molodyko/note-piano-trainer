@@ -1,0 +1,69 @@
+body
+	font-family: 'Roboto',sans-serif;
+	margin 0
+	padding 0
+	background-color: #DADADA;
+
+$full-width = 800px
+
+.container
+	width $full-width
+	margin auto
+	margin-top 100px
+
+.grid
+	.grid__canvas
+		box-sizing border-box
+		width 72%
+		display inline-block
+		vertical-align middle
+	.grid__controls
+		box-sizing border-box
+		width 18%
+		margin-left 5%
+		vertical-align middle
+		display inline-block
+	.grid__result
+		width 200px
+		height 18px
+		text-align center
+		margin auto
+		border-radius 3px
+		padding 10px
+		font-size 18px
+		&.grid__result--true
+			border 1px solid #40C160
+			background-color #D2FFD2
+			color #256B37
+		&.grid__result--false
+			border 1px solid #C14040
+			background-color #FFD2D3
+			color #6B2525
+
+.controls
+	.controls__wrapper
+		padding-left 0
+	.controls__item
+		margin 10px
+		display block
+		list-style none
+
+.button
+	text-align center
+	cursor pointer
+	padding 10px
+	display block
+	color rgb(255,255,255)
+	background-color rgb(59,120,231)
+	box-shadow 0 2px 5px 0 rgba(0,0,0,0.26)
+	border-radius 3px
+	transition color 0.2s cubic-bezier(0.25,0.8,0.25,1)
+	&:active
+		box-shadow 0 4px 8px 0 rgba(0,0,0,0.4)
+
+.sprite-element
+	position absolute
+
+.canvas
+	&>div
+		position relative

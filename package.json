@@ -1,0 +1,30 @@
+{
+  "name": "ng2-play.ts",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "A minimal Angular2 playground using TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkozlowski-opensource/ng2-play.ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pkozlowski-opensource/ng2-play.ts/issues"
+  },
+  "homepage": "https://github.com/pkozlowski-opensource/ng2-play.ts#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-styl": "^1.1.0",
+    "gulp-stylus": "^2.3.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2"
+  }
+}
